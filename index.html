@@ -1,87 +1,11 @@
 <!DOCTYPE html><html><head><title data-react-helmet="true">X.fun | 心动一下</title>
-
     <meta charset="utf-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' *.tezign.com *.musetransfer.com *.musecdn1.com *.musecdn2.com blob: data: resource:; script-src 'self' *.tezign.com *.musetransfer.com *.musecdn1.com *.musecdn2.com at.alicdn.com *.wx.qq.com cstaticdun.126.net cstaticdun1.126.net *.dun.163.com c.dun.163yun.com 'unsafe-eval' 'unsafe-inline' blob: data: resource:; style-src * 'unsafe-inline'; img-src 'self' *.tezign.com *.musetransfer.com *.musecdn1.com *.musecdn2.com *.aliyuncs.com *.feishucdn.com *.qlogo.cn *.weixin.qq.com *.126.net *.dun.163.com necaptcha.nosdn.127.net nos.netease.com data: blob:; connect-src 'self' *.tezign.com *.musetransfer.com *.musecdn1.com *.musecdn2.com *.aliyuncs.com at.alicdn.com blob:; font-src 'self' *.tezign.com data: resource:; object-src *; media-src *; frame-src *;">
-
     <link href="https://static.tezign.com/d13c7f1e7c041a549cd88b08ea7c3bff.jpeg" rel="shortcut icon" type="image/x-icon">
-
     <link href="https://static.tezign.com/d13c7f1e7c041a549cd88b08ea7c3bff.jpeg" rel="apple-touch-icon">
-
     <link rel="manifest" href="manifest.json">
-
     <link rel="stylesheet" href="https://static-cdn.tezign.com/tezign-transfer-web/umi.52181f48.css">
-
     <link rel="stylesheet" href="https://static-cdn.tezign.com/tezign-transfer-web/layouts__web__index.acb5bb61.chunk.css">
-
     <link rel="stylesheet" href="https://static-cdn.tezign.com/tezign-transfer-web/p__web__upload.772be9ab.chunk.css">
-
-    <script>
-
-      window.routerBase = "/";
-
-    </script>
-
-    <script>
-
-      //! umi version: 3.5.20
-
-    </script>
-
-    <script>
-
-      function redirect() {
-
-        const ua = navigator.userAgent;
-
-        const path = window.location.pathname;
-
-        const search = window.location.search;
-
-        const referer = document.referrer;
-
-        if (
-
-          /(android|iphone|windows phone)/gi.test(ua) &&
-
-          /mobile/gi.test(ua)
-
-        ) {
-
-          //IE不支持startWith
-
-          if (path !== "/m" && !/^\/m\/.*$/g.test(path)) {
-
-            sessionStorage.setItem("origin", referer);
-
-            window.location.href = "/m" + path + search;
-
-          }
-
-        } else if (path === "/m" || /^\/m\/.*$/g.test(path)) {
-
-          sessionStorage.setItem("origin", referer);
-
-          window.location.href = location.origin + path.slice(2) + search;
-
-        }
-
-      }
-
-      redirect();
-
-    </script>
-
-    <script src="//static.tezign.com/tezign-web-monitor-sdk/3.2.0/bundle.min.js" data-sentry-dsn="https://ae6933d91d0d43b8b7e07c713f4c8441@tech-monitoring.tezign.com/207"></script>
-
-    <script src="//cstaticdun.126.net/load.min.js?t=201903281201"></script>
-
-    <script src="//static.tezign.com/tezign-web-tracer-sdk/tezign-tracer-sdk.2.0.16-beta.0.min.js"></script>
-
-  <meta data-react-helmet="true" name="keywords" content="musetransfer,文件传输,文件上传,不限速,wetransfer,奶牛快传,免费网盘,大文件传输,快传"><meta data-react-helmet="true" name="description" content="无需登录即可完成文件传输，10GB文件上传下载不限速、免费用，MuseTransfer文件传输工具就是快！">
-
 </head>
 
   <body>
