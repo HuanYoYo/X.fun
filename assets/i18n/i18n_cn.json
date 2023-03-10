@@ -4,7 +4,7 @@
     "skills":"skills",
     "portfolio":"portfolio",
     "contact":"contact",
-    "home__title":"Hi, I'm ASOUTHERNCAT",
+    "home__title":"Hi, At a moment's notice",
     "home__subtitle":"Frontend developer",
     "home__description":"High level experience in web design and development knowledge,producing quality work.",
     "home__contact":"Contact Me",
@@ -51,5 +51,5 @@
     "email":"E-mail",
     "email__address":"asoutherncat@gmail.com",
     "location":"Location",
-    "location__detail":"HuNan , CHN"
+    "location__detail":"HuBei , CHN"
 }
